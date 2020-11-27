@@ -22,7 +22,7 @@ const Home = () => (
 const App = () => (
   <Router>
     <div>
-      <Route exact={true} path="/" component={Home} />
+      <Route exact={true} path="/events" component={Home} />
       <Route path="/event/:id" component={ViewEvent} />
       <Route path="/newEvent" component={NewEvent} />
     </div>
