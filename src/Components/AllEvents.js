@@ -75,7 +75,7 @@ class AllEvents extends Component {
                     <h1 className="ui header left floated">All Events</h1>
                     <button className="ui icon left basic button" onClick={this.handleSync} disabled={busy}>
                         <i aria-hidden="true" className={`refresh icon ${busy && "loading"}`}></i>
-                        Sync with Server
+                        Actualizar eventos
                     </button>
                 </div>
                 <div className="ui link cards">
