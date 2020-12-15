@@ -72,7 +72,7 @@ class AllEvents extends Component {
         return (
             <div>
                 <div className="ui clearing basic segment">
-                    <h1 className="ui header left floated">Todos los eventos: (deploy continuo rama main)</h1>
+                    <h1 className="ui header left floated">Todos los eventos: (Hola Equipo Cloud)</h1>
                     <button className="ui icon left basic button" onClick={this.handleSync} disabled={busy}>
                         <i aria-hidden="true" className={`refresh icon ${busy && "loading"}`}></i>
                         Actualizar eventos
